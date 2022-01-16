@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9f1497e0-41b7-41a5-a1ad-056d07b95522/deploy-status)](https://app.netlify.com/sites/easypracticechallenge/deploys)
 
+site : easypracticechallenge.netlify.app
+
 ## Project setup
 ```
 npm install
