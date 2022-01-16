@@ -33,31 +33,19 @@
                 :clientName="payment.client.name" :currency="payment.currency" :amount="payment.amount" />
             </div>
           </div>
-          <VuePaginationTw 
-            :total-items="20"
-            :current-page="1"
-            :per-page="6"
-            @page-changed="functionName"
-            :go-button="false"
-            styled="mt-4"/>
       </div>
   </div>
- 
 </template>
 
 <script>
 import SimpleCard from '../components/SimpleCard.vue';
 import PaymentCard from '../components/PaymentCard.vue';
 import dataExample from '../../dataExample';
-// import Pagination from '../components/Pagination.vue';
-import VuePaginationTw from 'vue-pagination-tw';
-
-
 
 export default {
   name: "EasyPay",
   components: {
-    SimpleCard, PaymentCard, VuePaginationTw
+    SimpleCard, PaymentCard
   },
   data() {
     return {
